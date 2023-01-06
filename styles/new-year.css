@@ -70,3 +70,60 @@
 .check {
     margin-bottom: 7px;
 }
+
+/* My Plan Section Styles */
+.myplan-container {
+    text-align: center;
+}
+
+.myplan-header {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 30px 0px;
+}
+
+.myplan-blog {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blog-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin: 10px 0px;
+}
+
+.blog-description {
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+    margin-bottom: 30px;
+}
+
+/* Blog Image Styles */
+.blog-image {
+    background-image: linear-gradient(to right, rgba(252, 90, 14, 0.911), rgba(255, 255, 255, 0)), url('../images/watch.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 30px 100px;
+    background-size: cover;
+    text-align: left;
+}
+
+.blog-image-title {
+    color: white;
+    font-size: 40px;
+    padding: 60px 640px 30px 60px;
+    text-align: left;
+}
+
+.btn-call {
+    font-size: 20px;
+    font-weight: 500;
+    color: orangered;
+    padding: 20px 30px;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 60px;
+}
