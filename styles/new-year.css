@@ -20,7 +20,7 @@
 
 .header-title {
     font-size: 65px;
-    font-weight: 700;
+    font-weight: 700 !important;
     margin-bottom: 30px;
 }
 
@@ -31,4 +31,42 @@
     padding: 20px;
     border: 0;
     border-radius: 5px;
+}
+
+/* Main Section Styles */
+.main {
+    max-width: 725px;
+}
+
+/* Checklist Section Styles */
+
+.checklist-container {
+    display: flex;
+    margin-top: 130px;
+}
+
+.checklist-image {
+    padding: 0 0 0 100px;
+}
+
+.checklist-info {
+    padding: 250px 170px;
+}
+
+.info-title {
+    font-size: 40px;
+    font-weight: 700 !important;
+}
+
+.info-description {
+    margin: 30px 0px;
+}
+
+.check-list {
+    list-style-type: none;
+    padding: 0 0 0 0;
+}
+
+.check {
+    margin-bottom: 7px;
 }
