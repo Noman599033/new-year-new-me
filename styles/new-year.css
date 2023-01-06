@@ -74,6 +74,7 @@
 /* My Plan Section Styles */
 .myplan-container {
     text-align: center;
+    margin-bottom: 130px;
 }
 
 .myplan-header {
@@ -119,11 +120,67 @@
 }
 
 .btn-call {
+    margin-left: 60px;
+}
+
+.button {
     font-size: 20px;
     font-weight: 500;
     color: orangered;
     padding: 20px 30px;
     border: 0;
     border-radius: 5px;
-    margin-left: 60px;
+    
+}
+
+/* Footer Section Styles */
+.footer-container {
+    background-color: black;
+    height: 577px;
+    display: flex;
+    justify-content: left;
+}
+
+.fl-title {
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    padding: 100px 100px 30px 100px;
+}
+
+.fl-description {
+    color: white;
+    text-align: left;
+    padding: 0px 275px 10px 100px;
+}
+
+.footer-right {
+    justify-content: left;
+    padding-right: 100px;
+}
+
+.fr-title {
+    font-size: 30px;
+    color: white;
+    padding: 100px 250px 30px 0px;
+}
+
+.input-email {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px 80px;
+    margin-bottom: 30px;
+}
+
+.contact {
+    color: white;
+    padding: 20px 100px;
+}
+
+.contact-icon {
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    padding: 20px 100px;
 }
